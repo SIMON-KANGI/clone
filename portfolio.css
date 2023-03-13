@@ -1,0 +1,89 @@
+#body{
+    background-color:rgba(10, 20, 30);
+}
+.navbar{
+    justify-content:center;
+    padding-top:10px;
+}
+.logo{
+    width:120px;
+}
+.light{
+    width:20px;
+}
+ul{
+    color:white;
+    display:flex;
+}
+li{
+    list-style-type:none;
+    margin:10px;
+    font-size:1rem;
+    font-weight:bold;
+}
+ul li a{
+    color:white;
+}
+ul li a:hover{
+    transition:0.5s;
+    color:grey;
+
+}
+ul li a.active{
+    text-decoration-color: brown;
+}
+#check{
+    display:none;
+}
+.checkbtn{
+    width:5px;
+    float:right;
+    display:none;
+}
+.head{
+    border:solid 2px;
+    height:400px;
+    margin:20px;
+}
+.head h1{
+    color:rgb(190, 152, 74);
+    font-size:4rem;
+    padding-left:50px;
+    padding-top:50px;
+}
+.head h2{
+    color:rgb(143, 105, 35);
+    font-size:4rem;
+    padding-left:300px;
+}
+.btn{
+    color:white;
+    width:200px;
+    height:50px;
+    font-size:5rem;
+    border-radius:10px;
+    box-shadow: 10px;;
+}
+.list{
+    border:solid blck 2px;
+    background-color:rgb(5, 5, 5);
+    margin-top:10px;
+}
+.li a{
+    color:grey;
+    text-decoration:none;
+}
+.li a:hover{
+ color:rgb(51, 46, 46)
+}
+#UI/UX{
+    width:400px;
+    border:solid 2px black;
+    background-color: black;
+}
+.download{
+    
+}
+.download img{
+    width:20px;
+}
